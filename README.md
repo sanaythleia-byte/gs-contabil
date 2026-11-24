@@ -38,3 +38,30 @@ Importe este repositório na Vercel (Add New → Project). Não há comando de b
 - Mapa do Google carregado só quando o visitante clica (página mais leve).
 - Animações suaves que respeitam a opção "reduzir movimento" do sistema.
 - Âncoras antigas (`#reforma`, `#especialidades`, `#localizacao`) continuam funcionando.
+
+## Versão 2 — UI, UX, CX, motion e responsividade
+
+**CX (experiência do cliente)**
+- Assistente "Como podemos ajudar?": o visitante escolhe perfil e assunto, digita o nome (opcional) e o site monta a mensagem do WhatsApp, com prévia ao vivo e botão "Copiar mensagem".
+- Os cartões "Para quem atendemos" levam ao assistente já com o perfil marcado.
+- Botões para copiar endereço e telefone, com aviso de confirmação.
+
+**Motion graphics**
+- Título do topo entra palavra por palavra; foto, selo e gráfico aparecem em sequência.
+- Gráfico animado inspirado no logo: o anel se desenha, as barras crescem e a seta de tendência sobe.
+- Faixa contínua com os serviços (com botão de pausa e pausa automática fora da tela).
+- Linha do tempo de "Como começar" se preenche conforme a rolagem; as linhas de "Por que" se desenham.
+- Tudo é desligado quando o sistema pede "reduzir movimento".
+
+**Interatividade e UI**
+- Barra de progresso de leitura no cabeçalho; cabeçalho se esconde ao descer e volta ao subir.
+- Brilho que segue o cursor nos cartões; perguntas frequentes abrem e fecham com animação suave.
+- Botão "voltar ao topo"; menu destaca a seção atual.
+- Artigos: tempo de leitura, botão "Compartilhar", sumário clicável que acompanha a leitura.
+
+**Responsividade**
+- Espaçamentos e margens fluidos; telas grandes (1440px+) usam container mais largo.
+- Celular: barra fixa com WhatsApp, Ligar e Rota no lugar do botão flutuante.
+- Tablet e celular: artigos viram carrossel deslizável.
+- Celular deitado: topo compacto. Impressão: sem menus e botões flutuantes.
+- Foto do escritório em 2 tamanhos (800px para celular: 53 KB em vez de 261 KB).

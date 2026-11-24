@@ -28,5 +28,16 @@ A cor de destaque aparece só em CTAs, eyebrows e números — nunca como degrad
 - Alvos de toque ≥ 44px; foco visível em todos os elementos interativos.
 - Ícones SVG (traço 1.75, estilo Lucide) via sprite inline.
 - Movimento: entradas de 600–700ms com `cubic-bezier(.2,.7,.2,1)`; desligado com `prefers-reduced-motion`.
-- Breakpoints: 1080 / 960 / 640px; sem rolagem horizontal em 375px.
+- Breakpoints: 1440+ / 1080 / 960 / 860 / 640px + celular deitado; sem rolagem horizontal em 375px.
 - Não inventar números, depoimentos ou certificações — usar apenas fatos já publicados pela GS Contábil.
+
+## Movimento (v2)
+- Tokens: `--dur-fast` 160ms (feedback), `--dur` 280ms (estado), `--dur-slow` 700ms (entrada). Entrada usa `--ease-out` (desacelera), saída `--ease-in`, progresso/faixa contínua é linear.
+- Parallax só na foto decorativa do topo, só com mouse, nunca em texto ou controles.
+- Conteúdo em movimento contínuo (faixa de serviços) tem botão de pausa e para fora da tela.
+- `prefers-reduced-motion`: sem animações, sem parallax, título e linha do tempo no estado final.
+
+## Componentes de CX (v2)
+- Assistente de atendimento: chips (radio/checkbox reais, foco visível), prévia `white-space: pre-line`, envio abre wa.me em nova aba. Sem JS, o formulário envia a mensagem padrão.
+- Avisos (toast) somem em 3,5s e usam `role="status"`.
+- Barras fixas não escondem o foco: o cabeçalho reaparece quando recebe foco do teclado.
